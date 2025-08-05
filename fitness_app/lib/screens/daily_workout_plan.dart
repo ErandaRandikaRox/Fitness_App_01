@@ -66,8 +66,7 @@ class DailyWorkoutPlan extends StatelessWidget {
                     print('Back button tapped'); 
                     context.go(
                       '/dashboard',
-                    ); // Ensure '/dashboard' is defined in GoRouter
-                    // Alternative: Navigator.pop(context); // Uncomment to use Navigator instead
+                    ); 
                   },
                   child: Container(
                     padding: EdgeInsets.all(10.w), 
@@ -217,8 +216,7 @@ class DailyWorkoutPlan extends StatelessWidget {
               ),
               // Second White Card Background
               Positioned(
-                top: 683.h, // Adjusted for 30px gap (473.h + 200.h + 30.h)
-                left: 27.5.w,
+                top: 683.h, 
                 child: Container(
                   width: 320.w,
                   height: 200.h, // Match RoundCard height

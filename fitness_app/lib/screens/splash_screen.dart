@@ -17,8 +17,8 @@ class _SplashScreenState extends State<SplashScreen> {
     final double screenHeight = MediaQuery.of(context).size.height;
 
     // Responsive right and bottom offsets based on screen size
-    final double rightOffset = screenWidth * 0.05; // 5% from right
-    final double bottomOffset = screenHeight * 0.07; // 7% from bottom
+    final double rightOffset = screenWidth * 0.05; 
+    final double bottomOffset = screenHeight * 0.07; 
 
     return Scaffold(
       body: Stack(
